@@ -1,0 +1,153 @@
+<!doctype html >
+<html lang="fa" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+        !function (e, t, a, n, g) {
+            e[n] = e[n] || [],
+                e[n].push({
+                    "gtm.start": (new Date).getTime(),
+                    event: "gtm.js"
+                });
+            var m = t.getElementsByTagName(a)[0]
+                , r = t.createElement(a);
+            r.async = !0,
+                r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-5VSZM5J",
+                m.parentNode.insertBefore(r, m)
+        }(window, document, "script", "dataLayer")
+    </script>
+
+    <meta name="description"
+          content="دارت یک زبان برنامه‌نویسی آسان، قابل حمل و کارآمد برای ساخت اپلیکیشن‌های باکیفیت در هر پلتفرمی است.">
+    <title>زبان برنامه نویسی دارت | دارت</title>
+
+    <link rel="icon" sizes="64x64" th:href="@{/assets/img/logo/dart-64.png}">
+    <link th:href="@{/assets/img/touch-icon-iphone.png}" rel="apple-touch-icon" eleventy:ignore="">
+    <link th:href="@{/assets/img/touch-icon-ipad.png}" rel="apple-touch-icon" sizes="152x152" eleventy:ignore="">
+    <link th:href="@{/assets/img/touch-icon-iphone-retina.png}" rel="apple-touch-icon" sizes="180x180" eleventy:ignore="">
+    <link th:href="@{/assets/img/touch-icon-ipad-retina.png}" rel="apple-touch-icon" sizes="167x167" eleventy:ignore="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@omid_haqi">
+    <meta name="twitter:title" content="زبان برنامه نویسی دارت">
+    <meta name="twitter:description"
+          content="دارت یک زبان برنامه‌نویسی آسان، قابل حمل و کارآمد برای ساخت اپلیکیشن‌های باکیفیت در هر پلتفرمی است.">
+    <meta property="og:title" content="زبان برنامه نویسی دارت">
+    <meta property="og:description"
+          content="دارت یک زبان برنامه‌نویسی آسان، قابل حمل و کارآمد برای ساخت اپلیکیشن‌های باکیفیت در هر پلتفرمی است.">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link th:href="@{/assets/css/materialSymbolsOutlined.css}" rel="stylesheet">
+    <link th:href="@{/assets/css/main.css}" rel="stylesheet">
+    <script th:src="@{/assets/js/jquery.min.js}"></script>
+    <script th:src="@{/assets/js/bootstrap.min.js}"></script>
+    <script th:src="@{/assets/js/js.cookie.min.js}"></script>
+    <script th:src="@{/assets/js/os-tabs.js}"></script>
+    <script th:src="@{/assets/js/utilities.js}"></script>
+    <script th:src="@{/assets/js/main.js}"></script>
+    <script>
+        !function (e, a, t, n, c, o, s) {
+            e.GoogleAnalyticsObject = c,
+                e[c] = e[c] || function () {
+                    (e[c].q = e[c].q || []).push(arguments)
+                }
+                ,
+                e[c].l = 1 * new Date,
+                o = a.createElement(t),
+                s = a.getElementsByTagName(t)[0],
+                o.async = 1,
+                o.src = "//www.google-analytics.com/analytics.js",
+                s.parentNode.insertBefore(o, s)
+        }(window, document, "script", 0, "ga"),
+            ga("create", "UA-26406144-4", "auto"),
+            ga("send", "pageview")
+    </script>
+
+
+</head>
+
+<body class="homepage">
+<section id="cookie-notice">
+    <div class="container">
+        <p>
+            Google uses cookies to deliver its services, to personalize ads, and to analyze traffic. You can adjust your
+            privacy controls anytime in your
+            <a href="https://myaccount.google.com/data-and-personalization" target="_blank" rel="noopener">
+                Google settings
+            </a>
+            .<a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener">
+            Learn more
+            </a>
+            .
+        </p>
+        <button id="cookie-consent" class="btn btn-primary">Okay</button>
+    </div>
+</section>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VSZM5J" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<header id="page-header" class="site-header">
+    <nav id="mainnav" class="site-header">
+        <div id="menu-toggle"><i class="material-symbols">menu</i>
+        </div>
+        <!--TODO: IMPLEMENT URL-->
+        <a href="index.html" class="brand" title="Dart">
+            <img loading="lazy" decoding="async"
+                 th:src="@{assets/img/iZel2Nms4j-443.svg}"
+                 alt="Dart" width="443" height="138">
+        </a>
+        <ul class="navbar">
+            <li>
+                <!--TODO: IMPLEMENT URL-->
+                <a href="overview.html" class="nav-link">
+                بررسی اجمالی
+                </a>
+            </li>
+            <li class="mainnav__get-started">
+                <!--TODO: IMPLEMENT URL-->
+                <a href="guides.html" class="nav-link">
+                    <span>
+                            مستندات
+                    </span>
+                </a>
+            </li>
+            <li>
+                <!--TODO: IMPLEMENT URL-->
+                <a href="community.html" class="nav-link">
+                انجمن
+                </a>
+            </li>
+            <li>
+                <!--TODO: IMPLEMENT URL-->
+                <a th:href="@{index.html#try-dart}" class="nav-link">
+                دارت پد
+                </a>
+            </li>
+            <li>
+                <!--TODO: IMPLEMENT URL-->
+                <a href="get-dart.html" class="nav-link">
+                دانلود
+                </a>
+            </li>
+            <li class="searchfield">
+                <form action="https://dart.dev/search" class="site-header__search form-inline" id="cse-search-box">
+                    <input type="hidden" name="cx" value="011220921317074318178:_yy-tmb5t_i">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <input type="hidden" name="hl" value="en">
+                    <input class="site-header__searchfield form-control search-field" type="search" name="q"
+                           id="search-main" autocomplete="off" placeholder="جستجو" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="banner" dir="rtl">
+    <p class="banner__text">ترجمه مستندات زبان دارت
+        <a href="https://dart.dev" target="_blank">
+            سایت رسمی
+        </a>.
+    </p>
+</div>
